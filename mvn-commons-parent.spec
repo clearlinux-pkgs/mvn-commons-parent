@@ -4,38 +4,40 @@
 #
 Name     : mvn-commons-parent
 Version  : 5
-Release  : 4
+Release  : 5
 URL      : https://github.com/apache/commons-parent/archive/commons-parent-5.tar.gz
 Source0  : https://github.com/apache/commons-parent/archive/commons-parent-5.tar.gz
-Source1  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
-Source2  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/12/commons-parent-12.pom
-Source3  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
-Source4  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/18/commons-parent-18.pom
-Source5  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
-Source6  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom
-Source7  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom
-Source8  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
-Source9  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
-Source10  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom
-Source11  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
-Source12  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
-Source13  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom
-Source14  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom
-Source15  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/38/commons-parent-38.pom
-Source16  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom
-Source17  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/40/commons-parent-40.pom
-Source18  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.pom
-Source19  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
-Source20  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/43/commons-parent-43.pom
-Source21  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/46/commons-parent-46.pom
-Source22  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
-Source23  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
-Source24  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/7/commons-parent-7.pom
-Source25  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom
+Source1  : https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.pom
+Source2  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+Source3  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/12/commons-parent-12.pom
+Source4  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
+Source5  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/18/commons-parent-18.pom
+Source6  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+Source7  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/23/commons-parent-23.pom
+Source8  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom
+Source9  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+Source10  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+Source11  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/32/commons-parent-32.pom
+Source12  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
+Source13  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+Source14  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/35/commons-parent-35.pom
+Source15  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom
+Source16  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/38/commons-parent-38.pom
+Source17  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/39/commons-parent-39.pom
+Source18  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/40/commons-parent-40.pom
+Source19  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.pom
+Source20  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
+Source21  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/43/commons-parent-43.pom
+Source22  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/46/commons-parent-46.pom
+Source23  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
+Source24  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+Source25  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/7/commons-parent-7.pom
+Source26  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: mvn-commons-parent-data = %{version}-%{release}
+Requires: mvn-commons-parent-license = %{version}-%{release}
 
 %description
 No detailed description available
@@ -48,85 +50,99 @@ Group: Data
 data components for the mvn-commons-parent package.
 
 
+%package license
+Summary: license components for the mvn-commons-parent package.
+Group: Default
+
+%description license
+license components for the mvn-commons-parent package.
+
+
 %prep
+%setup -q -n commons-parent-commons-parent-5
 
 %build
 
 %install
+mkdir -p %{buildroot}/usr/share/package-licenses/mvn-commons-parent
+cp LICENSE.txt %{buildroot}/usr/share/package-licenses/mvn-commons-parent/LICENSE.txt
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/14
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/14/commons-parent-14.pom
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/11
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/11
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/11/commons-parent-11.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/12
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/12
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/12/commons-parent-12.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/17
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/17
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/17/commons-parent-17.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/18
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/18
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/18/commons-parent-18.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/22
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/22
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/22/commons-parent-22.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/23
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/23
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/23/commons-parent-23.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/24
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/24
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/24/commons-parent-24.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/25
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/25
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/25/commons-parent-25.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/28
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/28
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/28/commons-parent-28.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/32
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/32
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/32/commons-parent-32.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/33
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/33
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/33/commons-parent-33.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/34
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/34
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/34/commons-parent-34.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/35
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/35
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/35/commons-parent-35.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/37
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/37
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/37/commons-parent-37.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/38
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/38
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/38/commons-parent-38.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/39
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/39
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/39/commons-parent-39.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/40
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/40
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/40/commons-parent-40.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/41
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/41
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/41/commons-parent-41.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/42
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/42
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/42/commons-parent-42.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/43
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/43
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/43/commons-parent-43.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/46
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/46
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/46/commons-parent-46.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/47
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/47
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/47/commons-parent-47.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/5
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/5
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/5/commons-parent-5.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/7
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/7
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/7/commons-parent-7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/9
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/9
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/9/commons-parent-9.pom
 
 
 %files
@@ -136,6 +152,7 @@ cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/com
 %defattr(-,root,root,-)
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/11/commons-parent-11.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/12/commons-parent-12.pom
+/usr/share/java/.m2/repository/org/apache/commons/commons-parent/14/commons-parent-14.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/17/commons-parent-17.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/18/commons-parent-18.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/22/commons-parent-22.pom
@@ -159,3 +176,7 @@ cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/com
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/5/commons-parent-5.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/7/commons-parent-7.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/9/commons-parent-9.pom
+
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/mvn-commons-parent/LICENSE.txt
