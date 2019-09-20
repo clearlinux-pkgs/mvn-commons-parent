@@ -4,7 +4,7 @@
 #
 Name     : mvn-commons-parent
 Version  : 5
-Release  : 6
+Release  : 7
 URL      : https://github.com/apache/commons-parent/archive/commons-parent-5.tar.gz
 Source0  : https://github.com/apache/commons-parent/archive/commons-parent-5.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/14/commons-parent-14.pom
@@ -29,16 +29,19 @@ Source19  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/40/
 Source20  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.pom
 Source21  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
 Source22  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/43/commons-parent-43.pom
-Source23  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/46/commons-parent-46.pom
-Source24  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
-Source25  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
-Source26  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/7/commons-parent-7.pom
-Source27  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom
+Source23  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/45/commons-parent-45.pom
+Source24  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/46/commons-parent-46.pom
+Source25  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/47/commons-parent-47.pom
+Source26  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+Source27  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/7/commons-parent-7.pom
+Source28  : https://repo1.maven.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: mvn-commons-parent-data = %{version}-%{release}
 Requires: mvn-commons-parent-license = %{version}-%{release}
+BuildRequires : apache-maven
+BuildRequires : buildreq-mvn
 
 %description
 No detailed description available
@@ -133,20 +136,23 @@ cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/com
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/43
 cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/43/commons-parent-43.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/45
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/45/commons-parent-45.pom
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/46
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/46/commons-parent-46.pom
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/46/commons-parent-46.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/47
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/47/commons-parent-47.pom
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/47/commons-parent-47.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/5
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/5/commons-parent-5.pom
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/5/commons-parent-5.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/7
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/7/commons-parent-7.pom
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/7/commons-parent-7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/9
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/9/commons-parent-9.pom
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/commons-parent/9/commons-parent-9.pom
 
 
 %files
@@ -176,6 +182,7 @@ cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/commons/com
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/41/commons-parent-41.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/42/commons-parent-42.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/43/commons-parent-43.pom
+/usr/share/java/.m2/repository/org/apache/commons/commons-parent/45/commons-parent-45.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/46/commons-parent-46.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/47/commons-parent-47.pom
 /usr/share/java/.m2/repository/org/apache/commons/commons-parent/5/commons-parent-5.pom
